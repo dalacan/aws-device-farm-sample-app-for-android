@@ -42,7 +42,7 @@ import com.google.android.gms.common.api.GoogleApiClient;
 import com.google.android.gms.location.LocationServices;
 
 import butterknife.ButterKnife;
-import butterknife.InjectView;
+import butterknife.Bind;
 
 /**
  * A fragment to detect the radio statuses within the Android app
@@ -53,17 +53,17 @@ public class FixturesFragment extends Fragment implements
 
     private static final String TAG = "fixtures-fragment";
 
-    @InjectView(R.id.longitude)
+    @Bind(R.id.longitude)
     TextView longitude;
-    @InjectView(R.id.lat)
+    @Bind(R.id.lat)
     TextView lat;
-    @InjectView(R.id.wifi)
+    @Bind(R.id.wifi)
     TextView wifi;
-    @InjectView(R.id.bluetooth)
+    @Bind(R.id.bluetooth)
     TextView bluetooth;
-    @InjectView(R.id.gps)
+    @Bind(R.id.gps)
     TextView gps;
-    @InjectView(R.id.nfc)
+    @Bind(R.id.nfc)
     TextView nfc;
 
     private GoogleApiClient googleApiClient;
@@ -72,7 +72,7 @@ public class FixturesFragment extends Fragment implements
     @Override
     public View onCreateView(LayoutInflater inflater, ViewGroup container, final Bundle savedInstanceState) {
         View view = inflater.inflate(R.layout.fixtures_layout, container, false);
-        ButterKnife.inject(this, view);
+        ButterKnife.bind(this, view);
         buildGoogleApiClient();
 
         //Registering events to detect radio changes

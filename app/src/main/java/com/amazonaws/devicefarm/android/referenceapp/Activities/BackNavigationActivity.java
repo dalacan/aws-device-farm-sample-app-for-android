@@ -26,7 +26,7 @@ import android.widget.TextView;
 import com.amazonaws.devicefarm.android.referenceapp.R;
 
 import butterknife.ButterKnife;
-import butterknife.InjectView;
+import butterknife.Bind;
 import butterknife.OnClick;
 
 /**
@@ -41,20 +41,20 @@ import butterknife.OnClick;
 public class BackNavigationActivity extends AppCompatActivity {
     private int PeerCount;
 
-    @InjectView(R.id.toolbar)
+    @Bind(R.id.toolbar)
     Toolbar toolbar;
 
-    @InjectView(R.id.back_navigation_counter)
+    @Bind(R.id.back_navigation_counter)
     TextView counter;
 
-    @InjectView(R.id.toolbar_title)
+    @Bind(R.id.toolbar_title)
     TextView toolbarTitle;
 
     @Override
     protected void onCreate(final Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.back_navigation);
-        ButterKnife.inject(this);
+        ButterKnife.bind(this);
         setSupportActionBar(toolbar);
         getSupportActionBar().setDisplayHomeAsUpEnabled(true);
         getSupportActionBar().setDisplayShowTitleEnabled(false);
