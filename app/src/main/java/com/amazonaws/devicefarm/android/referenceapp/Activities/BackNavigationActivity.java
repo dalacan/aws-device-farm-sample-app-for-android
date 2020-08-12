@@ -41,13 +41,13 @@ import butterknife.OnClick;
 public class BackNavigationActivity extends AppCompatActivity {
     private int PeerCount;
 
-    @Bind(R.id.toolbar)
+    @BindView(R.id.toolbar)
     Toolbar toolbar;
 
-    @Bind(R.id.back_navigation_counter)
+    @BindView(R.id.back_navigation_counter)
     TextView counter;
 
-    @Bind(R.id.toolbar_title)
+    @BindView(R.id.toolbar_title)
     TextView toolbarTitle;
 
     @Override

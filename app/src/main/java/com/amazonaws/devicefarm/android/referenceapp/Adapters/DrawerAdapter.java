@@ -56,8 +56,8 @@ public class DrawerAdapter extends RecyclerView.Adapter<DrawerAdapter.ViewHolder
     public static class ViewHolder extends RecyclerView.ViewHolder {
         protected int viewType;
 
-        @Bind(R.id.drawer_row_icon) ImageView rowImage;
-        @Bind(R.id.drawer_row_title) TextView rowTitle;
+        @BindView(R.id.drawer_row_icon) ImageView rowImage;
+        @BindView(R.id.drawer_row_title) TextView rowTitle;
 
         public ViewHolder(View itemView, int viewType) {
             super(itemView);

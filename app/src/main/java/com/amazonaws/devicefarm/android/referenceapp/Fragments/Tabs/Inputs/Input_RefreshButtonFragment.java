@@ -38,10 +38,10 @@ import butterknife.ButterKnife;
  */
 public class Input_RefreshButtonFragment extends android.support.v4.app.Fragment implements
         SwipeRefreshLayout.OnRefreshListener{
-    @Bind(R.id.input_refresh)
+    @BindView(R.id.input_refresh)
     SwipeRefreshLayout swipeRefreshLayout;
 
-    @Bind(R.id.input_refresh_display)
+    @BindView(R.id.input_refresh_display)
     TextView textView;
 
     @Override

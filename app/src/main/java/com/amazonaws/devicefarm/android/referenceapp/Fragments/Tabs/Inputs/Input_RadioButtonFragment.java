@@ -33,10 +33,10 @@ import butterknife.ButterKnife;
  * A fragment demonstrating radio button input
  */
 public class Input_RadioButtonFragment extends Fragment implements RadioGroup.OnCheckedChangeListener{
-    @Bind(R.id.radio_button_group)
+    @BindView(R.id.radio_button_group)
     RadioGroup radioGroup;
 
-    @Bind(R.id.input_radio_button_display)
+    @BindView(R.id.input_radio_button_display)
     TextView radioButtonDisplay;
 
 

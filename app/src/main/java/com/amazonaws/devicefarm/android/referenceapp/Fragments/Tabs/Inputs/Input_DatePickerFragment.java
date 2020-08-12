@@ -32,10 +32,10 @@ import butterknife.ButterKnife;
  * Fragment which represents datepicker input
  */
 public class Input_DatePickerFragment extends Fragment implements DatePicker.OnDateChangedListener{
-    @Bind(R.id.input_datepicker)
+    @BindView(R.id.input_datepicker)
     DatePicker datePicker;
 
-    @Bind(R.id.input_date_display)
+    @BindView(R.id.input_date_display)
     TextView timeDisplay;
 
     @Override

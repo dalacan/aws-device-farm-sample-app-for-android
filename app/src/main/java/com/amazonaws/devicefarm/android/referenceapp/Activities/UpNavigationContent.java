@@ -37,16 +37,16 @@ import butterknife.ButterKnife;
  * </p>
  */
 public class UpNavigationContent extends AppCompatActivity{
-    @Bind(R.id.toolbar)
+    @BindView(R.id.toolbar)
     Toolbar toolbar;
 
-    @Bind(R.id.nested_up_button)
+    @BindView(R.id.nested_up_button)
     Button nextButton;
 
-    @Bind(R.id.toolbar_title)
+    @BindView(R.id.toolbar_title)
     TextView toolbarTitle;
 
-    @Bind(R.id.up_navigation_content_text)
+    @BindView(R.id.up_navigation_content_text)
     TextView content_text;
 
     @Override

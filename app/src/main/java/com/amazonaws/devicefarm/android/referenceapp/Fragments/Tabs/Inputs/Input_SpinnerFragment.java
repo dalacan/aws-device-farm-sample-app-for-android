@@ -34,10 +34,10 @@ import butterknife.ButterKnife;
  * A fragment representing a spinner input
  */
 public class Input_SpinnerFragment extends Fragment implements Spinner.OnItemSelectedListener{
-    @Bind(R.id.input_spinner)
+    @BindView(R.id.input_spinner)
     Spinner spinner;
 
-    @Bind(R.id.input_spinner_message)
+    @BindView(R.id.input_spinner_message)
     TextView textView;
 
     @Override

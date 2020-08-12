@@ -37,7 +37,7 @@ import butterknife.ButterKnife;
  */
 public class TabFragmentContainer extends Fragment {
 
-    @Bind(R.id.view_pager1)
+    @BindView(R.id.view_pager1)
     ViewPager pager;
 
     public TabFragmentContainer() {}

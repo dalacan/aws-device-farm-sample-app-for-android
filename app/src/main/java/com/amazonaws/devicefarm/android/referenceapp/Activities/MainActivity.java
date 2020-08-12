@@ -49,13 +49,13 @@ import butterknife.ButterKnife;
  * </p>
  */
 public class MainActivity extends AppCompatActivity implements DrawerAdapter.OnItemClickListener{
-    @Bind(R.id.toolbar)
+    @BindView(R.id.toolbar)
     Toolbar toolbar;
 
-    @Bind(R.id.toolbar_title)
+    @BindView(R.id.toolbar_title)
     TextView toolbarTitle;
 
-    @Bind(R.id.drawer_layout)
+    @BindView(R.id.drawer_layout)
     DrawerLayout drawerLayout;
 
     /**

@@ -44,10 +44,10 @@ import butterknife.OnEditorAction;
  */
 public class WebViewFragment extends Fragment {
 
-    @Bind(R.id.website_input)
+    @BindView(R.id.website_input)
     EditText websiteInput;
 
-    @Bind(R.id.webView_browser)
+    @BindView(R.id.webView_browser)
     WebView webView;
 
     private boolean isError;

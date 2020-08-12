@@ -35,10 +35,10 @@ import butterknife.ButterKnife;
  * Fragment demonstrating a touch inputs
  */
 public class Input_GestureFragment extends Fragment{
-    @Bind(R.id.input_gesture_action_pad)
+    @BindView(R.id.input_gesture_action_pad)
     FrameLayout actionPad;
 
-    @Bind(R.id.input_gesture_content)
+    @BindView(R.id.input_gesture_content)
     TextView gestureContent;
 
     @Override

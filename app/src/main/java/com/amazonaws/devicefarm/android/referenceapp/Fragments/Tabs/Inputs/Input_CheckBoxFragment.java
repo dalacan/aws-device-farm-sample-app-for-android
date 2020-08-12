@@ -34,10 +34,10 @@ import butterknife.ButterKnife;
  * A fragment demonstrating a checkbox input
  */
 public class Input_CheckBoxFragment extends Fragment implements CheckBox.OnCheckedChangeListener{
-    @Bind(R.id.input_checkbox_status)
+    @BindView(R.id.input_checkbox_status)
     TextView checkbox_display;
 
-    @Bind(R.id.input_checkbox)
+    @BindView(R.id.input_checkbox)
     CheckBox checkBox;
 
     @Override

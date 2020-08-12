@@ -53,17 +53,17 @@ public class FixturesFragment extends Fragment implements
 
     private static final String TAG = "fixtures-fragment";
 
-    @Bind(R.id.longitude)
+    @BindView(R.id.longitude)
     TextView longitude;
-    @Bind(R.id.lat)
+    @BindView(R.id.lat)
     TextView lat;
-    @Bind(R.id.wifi)
+    @BindView(R.id.wifi)
     TextView wifi;
-    @Bind(R.id.bluetooth)
+    @BindView(R.id.bluetooth)
     TextView bluetooth;
-    @Bind(R.id.gps)
+    @BindView(R.id.gps)
     TextView gps;
-    @Bind(R.id.nfc)
+    @BindView(R.id.nfc)
     TextView nfc;
 
     private GoogleApiClient googleApiClient;

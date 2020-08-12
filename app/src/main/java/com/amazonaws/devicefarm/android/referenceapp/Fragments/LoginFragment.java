@@ -44,25 +44,25 @@ public class LoginFragment extends Fragment {
     private String ALT_BUTTON_SUCCESS_TITLE;
     private InputMethodManager imm;
 
-    @Bind(R.id.login_main_view)
+    @BindView(R.id.login_main_view)
     View mainView;
 
-    @Bind(R.id.login_alt_view)
+    @BindView(R.id.login_alt_view)
     View altView;
 
-    @Bind(R.id.username_text_input)
+    @BindView(R.id.username_text_input)
     EditText usernameInput;
 
-    @Bind(R.id.password_text_input)
+    @BindView(R.id.password_text_input)
     EditText passwordInput;
 
-    @Bind(R.id.login_button)
+    @BindView(R.id.login_button)
     Button loginButton;
 
-    @Bind(R.id.login_alt_message_textView)
+    @BindView(R.id.login_alt_message_textView)
     TextView altText;
 
-    @Bind(R.id.alt_button)
+    @BindView(R.id.alt_button)
     Button altButton;
 
     public LoginFragment(){}

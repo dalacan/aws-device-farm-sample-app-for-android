@@ -32,7 +32,7 @@ import butterknife.ButterKnife;
  * A fragment that demonstrates a root image gallery view
  */
 public class Native_ImageGalleryFragment extends Fragment {
-    @Bind(R.id.native_image_grid_view)
+    @BindView(R.id.native_image_grid_view)
     GridView imageGalley;
 
     @Override

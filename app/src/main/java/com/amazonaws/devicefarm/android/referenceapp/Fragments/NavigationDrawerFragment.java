@@ -43,7 +43,7 @@ import static android.content.Context.*;
  * Fragment for the the navigation drawer
  */
 public class NavigationDrawerFragment extends Fragment {
-    @Bind(R.id.drawerList)
+    @BindView(R.id.drawerList)
     RecyclerView recycleView;
 
     private DrawerAdapter drawerAdapter;

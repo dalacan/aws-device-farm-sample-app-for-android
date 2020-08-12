@@ -32,7 +32,7 @@ import butterknife.OnClick;
  * A fragment demonstrating the toggle button
  */
 public class Input_Toggle_ButtonFragment extends Fragment {
-    @Bind(R.id.input_switch_display)
+    @BindView(R.id.input_switch_display)
     View switchDisplay;
 
     @Override

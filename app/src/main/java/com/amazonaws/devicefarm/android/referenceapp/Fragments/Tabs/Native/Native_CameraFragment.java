@@ -40,7 +40,7 @@ public class Native_CameraFragment extends Fragment implements SurfaceHolder.Cal
 
     Camera camera;
 
-    @Bind(R.id.camera_surface_view)
+    @BindView(R.id.camera_surface_view)
     SurfaceView surfaceView;
 
     private SurfaceHolder surfaceHolder;

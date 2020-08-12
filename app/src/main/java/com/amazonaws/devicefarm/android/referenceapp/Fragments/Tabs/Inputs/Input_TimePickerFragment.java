@@ -32,10 +32,10 @@ import butterknife.ButterKnife;
  * A fragment demonstrating a time picker input
  */
 public class Input_TimePickerFragment extends Fragment  implements TimePicker.OnTimeChangedListener{
-    @Bind(R.id.input_timepicker)
+    @BindView(R.id.input_timepicker)
     TimePicker timePicker;
 
-    @Bind(R.id.input_time_display)
+    @BindView(R.id.input_time_display)
     TextView timeDisplay;
 
     @Override

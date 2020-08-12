@@ -36,10 +36,10 @@ import butterknife.OnClick;
  * </p>
  */
 public class UpNavigationActivity extends AppCompatActivity {
-    @Bind(R.id.toolbar)
+    @BindView(R.id.toolbar)
     Toolbar toolbar;
 
-    @Bind(R.id.toolbar_title)
+    @BindView(R.id.toolbar_title)
     TextView toolbarTitle;
 
     @Override

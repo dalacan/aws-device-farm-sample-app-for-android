@@ -36,7 +36,7 @@ import butterknife.ButterKnife;
 public class Native_MediaPlayer extends Fragment{
     private String movieUri;
 
-    @Bind(R.id.native_video_player)
+    @BindView(R.id.native_video_player)
     VideoView videoView;
 
     MediaPlayer player;
