@@ -30,7 +30,7 @@ import com.amazonaws.devicefarm.android.referenceapp.R;
 import java.util.List;
 
 import butterknife.ButterKnife;
-import butterknife.Bind;
+
 
 /**
  * <h1>Navigation Drawer Adapter</h1>

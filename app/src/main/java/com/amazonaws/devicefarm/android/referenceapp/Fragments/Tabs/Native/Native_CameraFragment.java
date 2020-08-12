@@ -30,7 +30,7 @@ import android.view.ViewGroup;
 import com.amazonaws.devicefarm.android.referenceapp.R;
 
 import butterknife.ButterKnife;
-import butterknife.Bind;
+
 
 /**
  * A fragment that demos a camera preview

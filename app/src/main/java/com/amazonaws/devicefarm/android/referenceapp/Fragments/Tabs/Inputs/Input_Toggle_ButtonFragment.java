@@ -25,7 +25,7 @@ import android.view.ViewGroup;
 import com.amazonaws.devicefarm.android.referenceapp.R;
 
 import butterknife.ButterKnife;
-import butterknife.Bind;
+
 import butterknife.OnClick;
 
 /**

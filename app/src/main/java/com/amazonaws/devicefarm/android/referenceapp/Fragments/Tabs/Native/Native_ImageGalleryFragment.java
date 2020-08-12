@@ -26,7 +26,7 @@ import com.amazonaws.devicefarm.android.referenceapp.Adapters.ImageGalleryAdapte
 import com.amazonaws.devicefarm.android.referenceapp.R;
 
 import butterknife.ButterKnife;
-import butterknife.Bind;
+
 
 /**
  * A fragment that demonstrates a root image gallery view

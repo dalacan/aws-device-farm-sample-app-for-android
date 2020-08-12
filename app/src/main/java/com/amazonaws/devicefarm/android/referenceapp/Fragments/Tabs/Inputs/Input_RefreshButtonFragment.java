@@ -31,7 +31,7 @@ import java.util.Date;
 import java.util.TimeZone;
 
 import butterknife.ButterKnife;
-import butterknife.Bind;
+
 
 /**
  * A fragment representing a refresh input
