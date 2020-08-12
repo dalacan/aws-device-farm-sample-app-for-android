@@ -29,6 +29,7 @@ import com.amazonaws.devicefarm.android.referenceapp.Adapters.GestureListener;
 import com.amazonaws.devicefarm.android.referenceapp.R;
 
 import butterknife.ButterKnife;
+import butterknife.BindView;
 
 
 /**

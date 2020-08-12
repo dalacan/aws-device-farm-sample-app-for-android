@@ -35,6 +35,7 @@ import com.amazonaws.devicefarm.android.referenceapp.R;
 import java.util.List;
 
 import butterknife.ButterKnife;
+import butterknife.BindView;
 
 
 import static android.content.Context.*;

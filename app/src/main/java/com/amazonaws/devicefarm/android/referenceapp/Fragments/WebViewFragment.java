@@ -36,6 +36,7 @@ import java.net.MalformedURLException;
 import java.net.URL;
 
 import butterknife.ButterKnife;
+import butterknife.BindView;
 
 import butterknife.OnEditorAction;
 

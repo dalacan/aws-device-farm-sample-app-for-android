@@ -27,6 +27,7 @@ import android.widget.EditText;
 import com.amazonaws.devicefarm.android.referenceapp.R;
 
 import butterknife.ButterKnife;
+import butterknife.BindView;
 
 
 

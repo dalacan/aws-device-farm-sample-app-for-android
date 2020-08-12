@@ -42,6 +42,7 @@ import com.google.android.gms.common.api.GoogleApiClient;
 import com.google.android.gms.location.LocationServices;
 
 import butterknife.ButterKnife;
+import butterknife.BindView;
 
 
 /**

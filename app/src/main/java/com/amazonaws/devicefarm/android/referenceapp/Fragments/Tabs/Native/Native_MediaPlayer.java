@@ -28,6 +28,7 @@ import android.widget.VideoView;
 import com.amazonaws.devicefarm.android.referenceapp.R;
 
 import butterknife.ButterKnife;
+import butterknife.BindView;
 
 
 /**

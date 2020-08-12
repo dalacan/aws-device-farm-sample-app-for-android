@@ -27,6 +27,7 @@ import com.amazonaws.devicefarm.android.referenceapp.Activities.UpNavigationActi
 import com.amazonaws.devicefarm.android.referenceapp.R;
 
 import butterknife.ButterKnife;
+import butterknife.BindView;
 import butterknife.OnClick;
 
 public class NestedFragment extends Fragment {
